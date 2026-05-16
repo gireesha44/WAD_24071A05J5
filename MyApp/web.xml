@@ -1,0 +1,17 @@
+<web-app>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>RestaurantBillServlet</servlet-name>
+        <servlet-class>RestaurantBillServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RestaurantBillServlet</servlet-name>
+        <url-pattern>/RestaurantBillServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
